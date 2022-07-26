@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var numberA = prompt('Digite um numero');
+        console.log(numberA);
+       
+        var numberB = prompt('Digite um numero');
+        console.log(numberB);
+        
+       
+        
+    //  if (Result === 10){
+      //      alert('passou');
+      //  }else{
+      //      alert('nao passou')
+       //    }
+        var escolha =  prompt('escolha o modo da operação ( + , - , / ou *')
+       switch(escolha){
+        case '+':
+            Result = parseInt(numberA) + parseInt(numberB);
+            alert('seu resultado da soma = ' + Result)
+        break;
+
+        case '-':
+            Result = parseInt(numberA) - parseInt(numberB);
+            alert('seu resultado da subtração = ' + Result)
+        break;
+
+        case '*':
+            Result = parseInt(numberA) * parseInt(numberB);
+            alert('seu resultado da multiplicação = ' + Result)
+            break;
+       
+       case '/':
+            Result = parseInt(numberA) / parseInt(numberB);
+            alert('seu resultado da divisão = ' + Result)
+            break;
+            
+        default:
+            break;
+       }
+
+    </script>
+</body>
+</html>
